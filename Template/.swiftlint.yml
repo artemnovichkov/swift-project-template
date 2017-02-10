@@ -1,0 +1,11 @@
+disabled_rules:
+ - trailing_whitespace
+excluded:
+  - Carthage/
+
+force_try: warning
+force_cast: warning
+colon:
+  apply_to_dictionaries: false
+statement_position:
+   statement_mode: uncuddled_else
