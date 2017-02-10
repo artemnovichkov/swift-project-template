@@ -16,9 +16,6 @@ For future runs you can shorten the command to `cookiecutter swift-project-templ
 * iOS Deployment Target - 9.0 (two major versions)
 * Automatic code signing disabled (sorry, Apple 🤷‍♂️)
 
-## Issues:
-* Wrong `AppDelegate` creation date (who cares?..)
-
 ## Author
 
 Artem Novichkov, novichkoff93@gmail.com
