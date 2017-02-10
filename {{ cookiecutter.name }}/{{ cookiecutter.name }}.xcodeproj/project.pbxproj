@@ -14,12 +14,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		060F08441E4D6B3900D9166F /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		060F08441E4D6B3900D9166F /* {{ cookiecutter.name }}.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "{{ cookiecutter.name }}.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		060F085B1E4D6C9200D9166F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		060F08651E4D6C9200D9166F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		060F08691E4D6C9200D9166F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		060F086A1E4D6C9200D9166F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		060F086C1E4D6C9200D9166F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		060F087C1E4D702C00D9166F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +39,7 @@
 				060F08591E4D6C9200D9166F /* Classes */,
 				060F08641E4D6C9200D9166F /* Resources */,
 				060F08681E4D6C9200D9166F /* Storyboards */,
-				060F086B1E4D6C9200D9166F /* Template */,
+				060F087B1E4D702C00D9166F /* {{ cookiecutter.name }} */,
 				060F08451E4D6B3900D9166F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,7 +47,7 @@
 		060F08451E4D6B3900D9166F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				060F08441E4D6B3900D9166F /* Template.app */,
+				060F08441E4D6B3900D9166F /* {{ cookiecutter.name }}.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,14 +118,6 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		060F086B1E4D6C9200D9166F /* Template */ = {
-			isa = PBXGroup;
-			children = (
-				060F086C1E4D6C9200D9166F /* Info.plist */,
-			);
-			path = Template;
-			sourceTree = "<group>";
-		};
 		060F08761E4D6CDF00D9166F /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,12 +125,20 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		060F087B1E4D702C00D9166F /* {{ cookiecutter.name }} */ = {
+			isa = PBXGroup;
+			children = (
+				060F087C1E4D702C00D9166F /* Info.plist */,
+			);
+			path = "{{ cookiecutter.name }}";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		060F08431E4D6B3900D9166F /* Template */ = {
+		060F08431E4D6B3900D9166F /* {{ cookiecutter.name }} */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 060F08561E4D6B3900D9166F /* Build configuration list for PBXNativeTarget "Template" */;
+			buildConfigurationList = 060F08561E4D6B3900D9166F /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}" */;
 			buildPhases = (
 				060F08401E4D6B3900D9166F /* Sources */,
 				060F08411E4D6B3900D9166F /* Frameworks */,
@@ -150,9 +150,9 @@
 			);
 			dependencies = (
 			);
-			name = Template;
+			name = "{{ cookiecutter.name }}";
 			productName = Template;
-			productReference = 060F08441E4D6B3900D9166F /* Template.app */;
+			productReference = 060F08441E4D6B3900D9166F /* {{ cookiecutter.name }}.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 060F083F1E4D6B3900D9166F /* Build configuration list for PBXProject "Template" */;
+			buildConfigurationList = 060F083F1E4D6B3900D9166F /* Build configuration list for PBXProject "{{ cookiecutter.name }}" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -184,7 +184,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				060F08431E4D6B3900D9166F /* Template */,
+				060F08431E4D6B3900D9166F /* {{ cookiecutter.name }} */,
 			);
 		};
 /* End PBXProject section */
@@ -343,10 +343,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Template/Info.plist;
+				INFOPLIST_FILE = "{{ cookiecutter.name }}/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rosberry.Template;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rosberry.{{ cookiecutter.name }}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -357,10 +357,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Template/Info.plist;
+				INFOPLIST_FILE = "{{ cookiecutter.name }}/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rosberry.Template;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rosberry.{{ cookiecutter.name }}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -369,7 +369,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		060F083F1E4D6B3900D9166F /* Build configuration list for PBXProject "Template" */ = {
+		060F083F1E4D6B3900D9166F /* Build configuration list for PBXProject "{{ cookiecutter.name }}" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				060F08541E4D6B3900D9166F /* Debug */,
@@ -378,13 +378,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		060F08561E4D6B3900D9166F /* Build configuration list for PBXNativeTarget "Template" */ = {
+		060F08561E4D6B3900D9166F /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				060F08571E4D6B3900D9166F /* Debug */,
 				060F08581E4D6B3900D9166F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
