@@ -57,6 +57,7 @@
 			children = (
 				060F085A1E4D6C9200D9166F /* AppDelegate */,
 				060F085C1E4D6C9200D9166F /* BusinessLogic */,
+				060F089C1E4D79C000D9166F /* Core */,
 				060F08611E4D6C9200D9166F /* Presentation */,
 			);
 			path = Classes;
@@ -131,6 +132,13 @@
 				060F087C1E4D702C00D9166F /* Info.plist */,
 			);
 			path = "{{ cookiecutter.name }}";
+			sourceTree = "<group>";
+		};
+		060F089C1E4D79C000D9166F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
