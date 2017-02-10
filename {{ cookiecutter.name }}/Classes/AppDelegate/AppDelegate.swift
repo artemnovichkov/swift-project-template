@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  {{ cookiecutter.name }}
 //
-//  Created by Artem Novichkov on 10/02/2017.
-//  Copyright © 2017 Rosberry. All rights reserved.
+//  Created by {{ cookiecutter.full_name }} on 10/02/2017.
+//  Copyright © 2017 {{ cookiecutter.organization_name }}. All rights reserved.
 //
 
 import UIKit
