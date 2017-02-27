@@ -159,7 +159,7 @@
 			dependencies = (
 			);
 			name = "{{ cookiecutter.name }}";
-			productName = Template;
+			productName = {{ cookiecutter.name }};
 			productReference = 060F08441E4D6B3900D9166F /* {{ cookiecutter.name }}.app */;
 			productType = "com.apple.product-type.application";
 		};
