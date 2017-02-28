@@ -10,6 +10,7 @@ For future runs you can shorten the command to `cookiecutter swift-project-templ
 
 ## Features:
 * Xcode 8.0+
+* AppCode support (checked in 2016.3.2 version)
 * Swift 3.0+
 * Custom project structure (the same in the project and on the disk)
 * Custom scripts for [Carthage](https://github.com/Carthage/Carthage) and [SwiftLint](https://github.com/realm/SwiftLint)
