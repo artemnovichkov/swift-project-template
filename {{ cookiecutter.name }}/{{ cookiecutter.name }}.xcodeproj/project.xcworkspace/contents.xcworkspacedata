@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/artemnovichkov/Documents/Projects/cookiecutter-swift-project/Template/{{ cookiecutter.name }}.xcodeproj">
+      location = "self:{{ cookiecutter.name }}.xcodeproj">
    </FileRef>
 </Workspace>
