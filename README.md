@@ -16,6 +16,7 @@ For future runs you can shorten the command to `cookiecutter swift-project-templ
 * Custom scripts for [Carthage](https://github.com/Carthage/Carthage) and [SwiftLint](https://github.com/realm/SwiftLint)
 * iOS Deployment Target - 9.0 (two major versions)
 * Automatic code signing disabled (sorry, Apple 🤷‍♂️)
+* Swift flags for [profiling compilation times](https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode)
 
 ## Author
 
