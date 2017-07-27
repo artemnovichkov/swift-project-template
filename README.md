@@ -2,8 +2,12 @@
 Cookiecutter template for an Swift iOS project.
 
 ![swift-project-template](img/example.png)
+
 ## Usage
-1. Install [cookiecutter](https://github.com/audreyr/cookiecutter) (`brew install cookiecutter` on macOS).
+1. Install [cookiecutter](https://github.com/audreyr/cookiecutter) and [carthage](https://github.com/Carthage/Carthage):
+   
+   `brew install cookiecutter carthage`
+    
 2. Run `cookiecutter gh:artemnovichkov/swift-project-template`.
 
 For future runs you can shorten the command to `cookiecutter swift-project-template`. However, if you want to use the most recent template you should still run the full command above.
