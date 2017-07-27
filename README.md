@@ -7,6 +7,8 @@ Cookiecutter template for an Swift iOS project.
 1. Install [cookiecutter](https://github.com/audreyr/cookiecutter) and [carthage](https://github.com/Carthage/Carthage):
    
    `brew install cookiecutter carthage`
+   
+   We use Carthage as dependency manager by default.
     
 2. Run `cookiecutter gh:artemnovichkov/swift-project-template`.
 
