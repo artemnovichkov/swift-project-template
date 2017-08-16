@@ -15,7 +15,7 @@ Cookiecutter template for an Swift iOS project.
 For future runs you can shorten the command to `cookiecutter swift-project-template`. However, if you want to use the most recent template you should still run the full command above.
 
 ## Features:
-* Xcode 8.0+ and Xcode 9.0 beta (9M136h)
+* Xcode 8.0+ and Xcode 9.0 beta 5 (9M202q)
 * AppCode support (checked in 2016.3.2 version)
 * Swift 3.0+
 * Custom project structure (the same in the project and on the disk)
