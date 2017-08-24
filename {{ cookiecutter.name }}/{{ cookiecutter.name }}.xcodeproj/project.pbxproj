@@ -208,7 +208,7 @@
 				060F08741E4D6C9200D9166F /* Main.storyboard in Resources */,
 				060F08731E4D6C9200D9166F /* LaunchScreen.storyboard in Resources */,
 				060F08711E4D6C9200D9166F /* Assets.xcassets in Resources */,
-				06DAD03B1F4E95BE00FD62BD /* Settings.bundle in Resources */,
+				06DAD03A1F4E95B700FD62BD /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
