@@ -17,6 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let appVersion = "\(shortVersionString) (\(bundleVersion))"
             UserDefaults.standard.appVersion = appVersion
         }
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = ViewController()
+        window?.makeKeyAndVisible()
+        
         return true
     }
 }
