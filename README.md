@@ -1,7 +1,7 @@
 # swift-project-template
 Cookiecutter template for an Swift iOS project.
 
-![swift-project-template](img/example.png)
+![swift-project-template](.github/example.png)
 
 ## Usage
 1. Install [Cookiecutter](https://github.com/audreyr/cookiecutter) and [Carthage](https://github.com/Carthage/Carthage):
