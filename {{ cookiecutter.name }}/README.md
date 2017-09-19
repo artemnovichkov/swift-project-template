@@ -6,7 +6,7 @@
 	```bash
 	brew install carthage
 	```
-2. Install [SwiftLint](https://github.com/realm/SwiftLint)
+2. Install [SwiftLint](https://github.com/realm/SwiftLint):
 
 	```bash
 	brew install swiftlint
