@@ -17,7 +17,7 @@
 - [ ] Merged develop branch
 - [ ] Follows code style
 - [ ] Has no SwiftLint warnings
-- [ ] Checked layout (UI) in iPhone4
+- [ ] Checked UI layout on iPhone X and iPads
 - [ ] Retain cycles were checked
 - [ ] Has no force unwraps
 - [ ] Access control words were checked
