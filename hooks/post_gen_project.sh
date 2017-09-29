@@ -3,4 +3,6 @@
 set -e
 
 git init
-carthage update --no-use-binaries --platform iOS
+git add -A .
+git commit -m "Initial Commit"
+open -a Xcode {{ cookiecutter.name }}.xcodeproj
