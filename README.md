@@ -24,7 +24,7 @@ For future runs you can shorten the command to `cookiecutter swift-project-templ
 * Template for Github pull requests
 * `Settings.bundle` with app version
 * Disabled automatic code signing (sorry, Apple 🤷‍♂️)
-* Swift flags for [profiling compilation times](https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode)
+* `-Xfrontend -debug-time-function-bodies` flags for [profiling compilation times](https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode)
 * `.gitattributes` for [linguist](https://github.com/github/linguist)
 
 ## Author
