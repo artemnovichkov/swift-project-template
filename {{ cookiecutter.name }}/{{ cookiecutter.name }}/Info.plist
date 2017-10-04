@@ -23,7 +23,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>{{ cookiecutter.organization_name }}.{{ cookiecutter.name }}</string>
+				<string>{{ cookiecutter.url_scheme }}</string>
 			</array>
 		</dict>
 	</array>
