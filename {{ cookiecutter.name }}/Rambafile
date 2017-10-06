@@ -1,0 +1,28 @@
+### Headers settings
+company: {{ cookiecutter.organization_name }}
+
+### Xcode project settings
+project_name: {{ cookiecutter.name }}
+xcodeproj_path: {{ cookiecutter.name }}.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: {{ cookiecutter.name }}
+
+# The file path for new modules
+project_file_path: Classes/
+
+# The xcodeproj group path to new modules
+project_group_path: Classes/
+
+### Dependencies settings section
+
+cartfile_path: Cartfile
+
+### Templates
+catalogs:
+- 'https://github.com/rosberry/rosberry-generamba-templates'
+templates:
+# - {name: rsb_swift_service}
+
+
