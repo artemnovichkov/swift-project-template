@@ -59,20 +59,12 @@
 		060F08591E4D6C9200D9166F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				060F085A1E4D6C9200D9166F /* AppDelegate */,
+				060F085B1E4D6C9200D9166F /* AppDelegate.swift */,
 				060F085C1E4D6C9200D9166F /* BusinessLogic */,
 				060F089C1E4D79C000D9166F /* Core */,
 				060F08611E4D6C9200D9166F /* Presentation */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		060F085A1E4D6C9200D9166F /* AppDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				060F085B1E4D6C9200D9166F /* AppDelegate.swift */,
-			);
-			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 		060F085C1E4D6C9200D9166F /* BusinessLogic */ = {
