@@ -1,5 +1,3 @@
-## [WIP/READY] <!— Title for pull request -->
-
 ## Description
 <!--- Describe your changes in detail -->
 
