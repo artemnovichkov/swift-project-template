@@ -29,11 +29,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 fileprivate extension UserDefaults {
 
     var appVersion: String? {
-        get { 
-            return string(forKey: #function) 
+        get {
+            return string(forKey: #function)
         }
-        set { 
-            set(newValue, forKey: #function) 
+        set {
+            set(newValue, forKey: #function)
         }
     }
 }
