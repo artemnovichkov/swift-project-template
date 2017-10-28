@@ -1,5 +1,5 @@
 ## Description
-<!--- Describe your changes in detail -->
+<!--- Describe your changes in detail: new app logic, important classes or functions, added frameworks etc. -->
 
 ## Related tasks
 <!--- Add links for related tasks in JIRA -->
