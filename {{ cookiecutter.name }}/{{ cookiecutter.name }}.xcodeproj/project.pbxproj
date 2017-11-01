@@ -129,7 +129,7 @@
 				060F087C1E4D702C00D9166F /* Info.plist */,
 				06DAD0391F4E95B700FD62BD /* Settings.bundle */,
 			);
-			path = {{ cookiecutter.name }};
+			path = "{{ cookiecutter.name }}";
 			sourceTree = "<group>";
 		};
 		060F089C1E4D79C000D9166F /* Core */ = {
@@ -156,7 +156,7 @@
 			);
 			dependencies = (
 			);
-			name = {{ cookiecutter.name }};
+			name = "{{ cookiecutter.name }}";
 			productName = {{ cookiecutter.name }};
 			productReference = 060F08441E4D6B3900D9166F /* {{ cookiecutter.name }}.app */;
 			productType = "com.apple.product-type.application";
@@ -169,7 +169,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = {{ cookiecutter.organization_name }};
+				ORGANIZATIONNAME = "{{ cookiecutter.organization_name }}";
 				TargetAttributes = {
 					060F08431E4D6B3900D9166F = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -376,11 +376,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = {{ cookiecutter.name }}/Info.plist;
+				INFOPLIST_FILE = "{{ cookiecutter.name }}/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }};
+				PRODUCT_BUNDLE_IDENTIFIER = "{{ cookiecutter.bundle_identifier }}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -392,10 +392,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = {{ cookiecutter.name }}/Info.plist;
+				INFOPLIST_FILE = "{{ cookiecutter.name }}/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }};
+				PRODUCT_BUNDLE_IDENTIFIER = "{{ cookiecutter.bundle_identifier }}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
