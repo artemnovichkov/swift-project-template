@@ -1,24 +1,25 @@
 ## Description
-<!--- Describe your changes in detail -->
+<!--- Describe your changes in detail: new app logic, important classes or functions, added frameworks etc. -->
 
 ## Related tasks
 <!--- Add links for related tasks in JIRA -->
 
 ## Screenshots
-<!--- Add screenshots of updated app interface if needed -->
+<!--- Add screenshots of updated UI if needed -->
 
 ## TODOs
-<!--- Add screenshots of updated app interface if needed -->
+<!--- Add list of unfinished tasks if needed -->
 
 ## Checklist
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
-- [ ] Merged develop branch
+- [ ] Have merged develop branch
+- [ ] Develop branch is chosen as a merge branch
 - [ ] Follows code style
 - [ ] Has no SwiftLint warnings
 - [ ] Checked UI layout on iPhone X and iPads
 - [ ] Retain cycles were checked
 - [ ] Has no force unwraps
 - [ ] Access control words were checked
-- [ ] Checked logic when internet connection is not available
-- [ ] Checked that app correctly handles `background` and `active` states. 
-- [ ] The appropriate pull request label is selected
+- [ ] Changelog was changed
+- [ ] Checked that the app correctly handles `background` and `foreground` states 
+- [ ] The appropriate pull request label is selected (Ready | WIP)
