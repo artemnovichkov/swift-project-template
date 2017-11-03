@@ -15,10 +15,10 @@ Cookiecutter template for an Swift iOS project.
 For future runs you can shorten the command to `cookiecutter swift-project-template`. However, if you want to use the most recent template you should still run the full command above.
 
 ## Features:
-* Xcode 9.0 and Swift 4.0 support
+* Xcode 9.1 and Swift 4.0.2 support
 * AppCode support (checked in 2017.2 version)
 * Custom project structure (the same in the project and on the disk)
-* Debug, AdHoc and AppStore configurations
+* Debug, AdHoc, AppStore and Analyze configurations
 * Custom scripts for [Carthage](https://github.com/Carthage/Carthage) and [SwiftLint](https://github.com/realm/SwiftLint)
 * iOS Deployment Target - 9.0
 * Template for Github pull requests
