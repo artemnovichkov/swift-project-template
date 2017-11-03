@@ -1,5 +1,5 @@
 # swift-project-template
-Cookiecutter template for an Swift iOS project.
+Cookiecutter template for Swift iOS projects.
 
 ![swift-project-template](.github/example.png)
 
