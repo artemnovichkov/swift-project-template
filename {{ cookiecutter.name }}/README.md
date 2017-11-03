@@ -6,16 +6,11 @@
 	```bash
 	brew install carthage
 	```
-2. Install [SwiftLint](https://github.com/realm/SwiftLint):
-
-	```bash
-	brew install swiftlint
-	```
-3. Run in project directory:
+2. Run a command in a project directory:
 
 	```bash
 	carthage update --platform iOS
 	```
-4. Open `{{ cookiecutter.name }}.xcodeproj` in last Xcode version.
-5. Press `Cmd+R` or select `Product > Run` in menu.
+3. Open `{{ cookiecutter.name }}.xcodeproj` in last Xcode version.
+4. Press `Cmd+R` or select `Product > Run` in menu.
 
