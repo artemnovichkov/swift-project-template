@@ -6,6 +6,9 @@ set -e
 curl -O https://s3.amazonaws.com/kits-crashlytics-com/ios/com.twitter.crashlytics.ios/3.9.3/com.crashlytics.ios-manual.zip
 unzip com.crashlytics.ios-manual.zip
 rm com.crashlytics.ios-manual.zip
+mkdir Frameworks
+mv Fabric.framework Frameworks/Fabric.framework
+mv Crashlytics.framework Frameworks/Crashlytics.framework
 {% endif %}
 
 git init
