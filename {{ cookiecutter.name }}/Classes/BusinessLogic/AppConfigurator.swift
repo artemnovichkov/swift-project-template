@@ -3,10 +3,7 @@
 //
 
 import Foundation
-{% if cookiecutter.fabric == "Yes" %}
-import Fabric
-import Crashlytics
-{% endif %}
+{% if cookiecutter.fabric == "Yes" %}import Fabric\nimport Crashlytics{% endif %}
 
 final class AppConfigurator {
 
