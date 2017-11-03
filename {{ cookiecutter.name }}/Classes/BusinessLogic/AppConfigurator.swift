@@ -6,6 +6,7 @@ import Foundation
 {%- if cookiecutter.fabric == "Yes" -%}
 import Fabric
 import Crashlytics
+{% endif %}
 
 final class AppConfigurator {
 
@@ -20,6 +21,7 @@ final class AppConfigurator {
         {%- if cookiecutter.fabric == "Yes" -%}
 
         Fabric.with([Crashlytics.self])
+        {% endif %}
     }
 }
 
