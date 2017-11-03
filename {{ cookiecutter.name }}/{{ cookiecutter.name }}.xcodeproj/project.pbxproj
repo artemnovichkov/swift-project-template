@@ -157,7 +157,8 @@
 				060F08411E4D6B3900D9166F /* Frameworks */,
 				060F08421E4D6B3900D9166F /* Resources */,
 				060F08791E4D6CF100D9166F /* SwiftLint */,
-				060F087A1E4D6D2100D9166F /* Carthage */,
+				060F087A1E4D6D2100D9166F /* Carthage */,{% if cookiecutter.fabric == "Yes" %}
+				06A610D31FAC2694009A918A /* Fabric */,{% endif %}
 			);
 			buildRules = (
 			);
@@ -244,7 +245,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
+		};{% if cookiecutter.fabric == "Yes" %}
+		06A610D31FAC2694009A918A /* Fabric */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Fabric;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" <FABRIC_API_KEY> <BUILD_SECRET>";
+		};{% endif %}
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
