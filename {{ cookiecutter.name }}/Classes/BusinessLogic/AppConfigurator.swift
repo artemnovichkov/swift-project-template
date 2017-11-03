@@ -1,5 +1,5 @@
 //
-//  Copyright © 2017 Rosberry. All rights reserved.
+//  Copyright © {% now 'local', '%Y' %} {{ cookiecutter.organization_name }}. All rights reserved.
 //
 
 import Foundation
