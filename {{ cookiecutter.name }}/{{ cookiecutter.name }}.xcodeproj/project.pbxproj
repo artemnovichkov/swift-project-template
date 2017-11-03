@@ -26,6 +26,8 @@
 		066238171F879B4D00AA6B14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		06DAD0391F4E95B700FD62BD /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		06E0EBD01FAC0BB4002715AE /* AppConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurator.swift; sourceTree = "<group>"; };
+		06E0EBD21FAC0D4B002715AE /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
+		06E0EBD41FAC0D97002715AE /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,8 @@
 		060F087B1E4D702C00D9166F /* {{ cookiecutter.name }} */ = {
 			isa = PBXGroup;
 			children = (
+				06E0EBD21FAC0D4B002715AE /* Cartfile */,
+				06E0EBD41FAC0D97002715AE /* .swiftlint.yml */,
 				060F087C1E4D702C00D9166F /* Info.plist */,
 				06DAD0391F4E95B700FD62BD /* Settings.bundle */,
 			);
