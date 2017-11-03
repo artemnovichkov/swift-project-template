@@ -4,7 +4,7 @@
 
 import Foundation
 {%- if cookiecutter.fabric == "Yes" -%}
-import Fabric
+\nimport Fabric
 import Crashlytics
 {% endif %}
 
@@ -19,8 +19,7 @@ final class AppConfigurator {
         let appVersion = "\(shortVersionString) (\(bundleVersion))"
         UserDefaults.standard.appVersion = appVersion
         {%- if cookiecutter.fabric == "Yes" -%}
-
-        Fabric.with([Crashlytics.self])
+        \nFabric.with([Crashlytics.self])
         {% endif %}
     }
 }
