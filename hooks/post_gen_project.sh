@@ -9,6 +9,7 @@ rm com.crashlytics.ios-manual.zip
 mkdir Frameworks
 mv Fabric.framework Frameworks/Fabric.framework
 mv Crashlytics.framework Frameworks/Crashlytics.framework
+echo "✅ Fabric frameworks were added successfully. Don't forget to add API Key to Info.plist and API Key and Build Secret to Fabric Run Script Build Phase. The credentials are available here: https://www.fabric.io/settings/organizations"
 {% endif %}
 
 git init
