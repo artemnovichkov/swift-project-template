@@ -1,5 +1,6 @@
 {
     "name" : "Project",
     "organization_name" : "Rosberry",
-    "bundle_identifier" : "com.{{ cookiecutter.organization_name | replace(' ', '-') | lower }}.{{ cookiecutter.name | replace(' ', '-') | lower }}"
+    "bundle_identifier" : "com.{{ cookiecutter.organization_name | replace(' ', '-') | lower }}.{{ cookiecutter.name | replace(' ', '-') | lower }}",
+    "fabric" : ["Yes", "No"]
 }
