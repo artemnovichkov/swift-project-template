@@ -14,7 +14,7 @@
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
 - [ ] Have merged develop branch
 - [ ] Develop branch is chosen as a merge branch
-- [ ] Follows code style
+- [ ]  Follows project code style
 - [ ] Has no SwiftLint warnings
 - [ ] Checked UI layout on iPhone X and iPads
 - [ ] Retain cycles were checked
