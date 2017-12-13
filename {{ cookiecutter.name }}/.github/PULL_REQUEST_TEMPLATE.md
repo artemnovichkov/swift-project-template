@@ -2,10 +2,14 @@
 <!--- Describe your changes in detail: new app logic, important classes or functions, added frameworks etc. -->
 
 ## Related tasks
-<!--- Add links for related tasks in JIRA -->
+<!--- Add links to related tasks in JIRA -->
 
 ## Screenshots
-<!--- Add screenshots of updated UI if needed -->
+<!--- Add screenshots of updated UI if needed
+<p align="center">
+<img src="https://github.com/rosberry/Foundation/blob/master/Assets/full_logo.png?raw=true" width="250" />
+</p>
+-->
 
 ## TODOs
 <!--- Add list of unfinished tasks if needed -->
