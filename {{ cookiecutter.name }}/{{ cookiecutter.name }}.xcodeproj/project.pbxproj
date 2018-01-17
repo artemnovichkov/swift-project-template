@@ -114,18 +114,11 @@
 		060F08641E4D6C9200D9166F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				060F08691E4D6C9200D9166F /* LaunchScreen.storyboard */,
 				060F08651E4D6C9200D9166F /* Assets.xcassets */,
 				066238181F879B4D00AA6B14 /* Localizable.strings */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		060F08681E4D6C9200D9166F /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				060F08691E4D6C9200D9166F /* LaunchScreen.storyboard */,
-			);
-			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		060F08761E4D6CDF00D9166F /* Models */ = {
