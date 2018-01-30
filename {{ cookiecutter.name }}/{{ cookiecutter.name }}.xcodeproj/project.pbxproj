@@ -257,7 +257,7 @@
 		};{% if cookiecutter.fabric == "Yes" %}
 		06A610D31FAC2694009A918A /* Fabric */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -265,7 +265,7 @@
 			name = Fabric;
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "./Frameworks/Fabric.framework/run <FABRIC_API_KEY> <BUILD_SECRET>";
 		};{% endif %}
