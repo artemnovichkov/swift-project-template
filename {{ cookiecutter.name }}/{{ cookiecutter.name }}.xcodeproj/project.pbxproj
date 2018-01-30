@@ -14,8 +14,8 @@
 		066238161F879B4D00AA6B14 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 066238181F879B4D00AA6B14 /* Localizable.strings */; };
 		06DAD03A1F4E95B700FD62BD /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 06DAD0391F4E95B700FD62BD /* Settings.bundle */; };
 		06E0EBD11FAC0BB4002715AE /* AppConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E0EBD01FAC0BB4002715AE /* AppConfigurator.swift */; };{% if cookiecutter.fabric == "Yes" %}
-		06A610DC1FAC373B009A918A /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A610DA1FAC373B009A918A /* Fabric.framework */; };
-		06A610DD1FAC373B009A918A /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A610DB1FAC373B009A918A /* Crashlytics.framework */; };{% endif %}
+		06A255DA2020B0BC00C33704 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A255D82020B0BC00C33704 /* Fabric.framework */; };
+		06A255DB2020B0BC00C33704 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A255D92020B0BC00C33704 /* Crashlytics.framework */; };{% endif %}
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		06E0EBD01FAC0BB4002715AE /* AppConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurator.swift; sourceTree = "<group>"; };
 		06E0EBD21FAC0D4B002715AE /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
 		06E0EBD41FAC0D97002715AE /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };{% if cookiecutter.fabric == "Yes" %}
-		06A610DA1FAC373B009A918A /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Carthage/Build/iOS/Fabric.framework; sourceTree = "<group>"; };
-		06A610DB1FAC373B009A918A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Carthage/Build/iOS/Crashlytics.framework; sourceTree = "<group>"; };{% endif %}
+		06A255D82020B0BC00C33704 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = Carthage/Build/iOS/Fabric.framework; sourceTree = "<group>"; };
+		06A255D92020B0BC00C33704 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = Carthage/Build/iOS/Crashlytics.framework; sourceTree = "<group>"; };{% endif %}
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,8 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = ({% if cookiecutter.fabric == "Yes" %}
-				06A610DD1FAC373B009A918A /* Crashlytics.framework in Frameworks */,
-				06A610DC1FAC373B009A918A /* Fabric.framework in Frameworks */,{% endif %}
+				06A255DA2020B0BC00C33704 /* Fabric.framework in Frameworks */,
+				06A255DB2020B0BC00C33704 /* Crashlytics.framework in Frameworks */,{% endif %}
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +149,8 @@
 		06A610D91FAC373B009A918A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				06A610DA1FAC373B009A918A /* Fabric.framework */,
-				06A610DB1FAC373B009A918A /* Crashlytics.framework */,
+				06A255D92020B0BC00C33704 /* Crashlytics.framework */,
+				06A255D82020B0BC00C33704 /* Fabric.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
