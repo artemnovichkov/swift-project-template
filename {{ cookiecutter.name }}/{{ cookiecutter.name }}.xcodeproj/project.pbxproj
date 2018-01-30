@@ -240,6 +240,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = ./Scripts/swiftlint_script.sh;
+			showEnvVarsInLog = 0;
 		};
 		060F087A1E4D6D2100D9166F /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -254,6 +255,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			showEnvVarsInLog = 0;
 		};{% if cookiecutter.fabric == "Yes" %}
 		06A610D31FAC2694009A918A /* Fabric */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -267,7 +269,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "./Frameworks/Fabric.framework/run <FABRIC_API_KEY> <BUILD_SECRET>";
+			shellScript = "./Carthage/Build/iOS/Fabric.framework/run <FABRIC_API_KEY> <BUILD_SECRET>";
+			showEnvVarsInLog = 0;
 		};{% endif %}
 /* End PBXShellScriptBuildPhase section */
 
