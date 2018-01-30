@@ -152,7 +152,7 @@
 				06A255D92020B0BC00C33704 /* Crashlytics.framework */,
 				06A255D82020B0BC00C33704 /* Fabric.framework */,
 			);
-			path = Frameworks;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};{% endif %}
 /* End PBXGroup section */
