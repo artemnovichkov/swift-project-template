@@ -412,7 +412,7 @@
 				DEVELOPMENT_TEAM = "";{% if cookiecutter.fabric == "Yes" %}
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);{% endif %}
 				INFOPLIST_FILE = "{{ cookiecutter.name }}/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -433,7 +433,7 @@
 				DEVELOPMENT_TEAM = "";{% if cookiecutter.fabric == "Yes" %}
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);{% endif %}
 				INFOPLIST_FILE = "{{ cookiecutter.name }}/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -503,7 +503,7 @@
 				DEVELOPMENT_TEAM = "";{% if cookiecutter.fabric == "Yes" %}
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);{% endif %}
 				INFOPLIST_FILE = "{{ cookiecutter.name }}/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -575,7 +575,7 @@
 				DEVELOPMENT_TEAM = "";{% if cookiecutter.fabric == "Yes" %}
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);{% endif %}
 				INFOPLIST_FILE = "{{ cookiecutter.name }}/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
