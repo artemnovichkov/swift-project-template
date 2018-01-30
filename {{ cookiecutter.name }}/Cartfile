@@ -1,2 +1,5 @@
-
+{% if cookiecutter.fabric == "Yes" %}
+binary "https://raw.githubusercontent.com/Building42/Specs/master/Carthage/Fabric.json"
+binary "https://raw.githubusercontent.com/Building42/Specs/master/Carthage/Crashlytics.json"
+{% endif %}
 

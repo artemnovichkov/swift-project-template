@@ -30,8 +30,8 @@
 		06E0EBD01FAC0BB4002715AE /* AppConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurator.swift; sourceTree = "<group>"; };
 		06E0EBD21FAC0D4B002715AE /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
 		06E0EBD41FAC0D97002715AE /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };{% if cookiecutter.fabric == "Yes" %}
-		06A610DA1FAC373B009A918A /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
-		06A610DB1FAC373B009A918A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };{% endif %}
+		06A610DA1FAC373B009A918A /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Carthage/Build/iOS/Fabric.framework; sourceTree = "<group>"; };
+		06A610DB1FAC373B009A918A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Carthage/Build/iOS/Crashlytics.framework; sourceTree = "<group>"; };{% endif %}
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
