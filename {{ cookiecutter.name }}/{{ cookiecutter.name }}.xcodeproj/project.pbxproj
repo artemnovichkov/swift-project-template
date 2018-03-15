@@ -262,7 +262,7 @@
 		};{% if cookiecutter.fabric == "Yes" %}
 		06A610D31FAC2694009A918A /* Fabric */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
