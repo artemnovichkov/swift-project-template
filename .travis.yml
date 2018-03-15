@@ -8,4 +8,5 @@ before_install:
   - brew upgrade carthage
 script:
   - cookiecutter --no-input gh:artemnovichkov/swift-project-template
+  - cd Project
   - xcodebuild clean build -project Project.xcodeproj CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
