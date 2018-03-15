@@ -16,4 +16,4 @@ git init >/dev/null
 git add -A . >/dev/null
 git commit -m "Initial Commit" >/dev/null
 git flow init -d >/dev/null
-open -a Xcode {{ cookiecutter.name }}.xcodeproj
+# open -a Xcode {{ cookiecutter.name }}.xcodeproj
