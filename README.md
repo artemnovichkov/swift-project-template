@@ -22,6 +22,7 @@ For future runs you can shorten the command to `cookiecutter swift-project-templ
 * Custom scripts for [Carthage](https://github.com/Carthage/Carthage) and [SwiftLint](https://github.com/realm/SwiftLint)
 * iOS Deployment Target - 9.0
 * Optional [Fabric](https://www.fabric.io) integration. Don't forget to add API Key and Build Secret manually from [Settings](https://www.fabric.io/settings/organizations)
+* Optional [SwiftGen](https://github.com/SwiftGen/SwiftGen) integration
 * Template for Github pull requests
 * `Settings.bundle` with app version
 * Disabled automatic code signing (sorry, Apple 🤷‍♂️)
