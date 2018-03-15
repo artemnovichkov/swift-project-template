@@ -2,6 +2,7 @@ language: objective-c
 osx_image: xcode9.2
 before_install:
   - brew update
-  - brew install cookiecutter carthage
+  - brew install cookiecutter
+  - brew upgrade carthage
 script:
   - cookiecutter gh:artemnovichkov/swift-project-template
