@@ -1,0 +1,4 @@
+install:
+  - brew install cookiecutter carthage
+script:
+  - cookiecutter gh:artemnovichkov/swift-project-template
