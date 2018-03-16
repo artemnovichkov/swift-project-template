@@ -1,4 +1,6 @@
 # swift-project-template
+[![Build Status](https://travis-ci.org/artemnovichkov/swift-project-template.svg?branch=master)](https://travis-ci.org/artemnovichkov/swift-project-template)
+
 Cookiecutter template for Swift iOS projects.
 
 ![swift-project-template](.github/example.png)
