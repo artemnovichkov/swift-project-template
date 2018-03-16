@@ -9,7 +9,10 @@
 * Xcode 9.0+ and Swift 4.0+ support
 * AppCode support (checked in 2017.2 version)
 * Custom project structure (the same in the project and on the disk)
-* Debug, AdHoc, AppStore and Analyze configurations
+* Configurations and schemes:
+
+![swift-project-template](.github/schemes.png)
+
 * Custom scripts for [Carthage](https://github.com/Carthage/Carthage) and [SwiftLint](https://github.com/realm/SwiftLint)
 * iOS Deployment Target - 9.0
 * Optional [Fabric](https://www.fabric.io) integration. Don't forget to add API Key and Build Secret manually from [Settings](https://www.fabric.io/settings/organizations)
