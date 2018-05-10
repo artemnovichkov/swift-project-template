@@ -21,7 +21,7 @@ final class AppConfigurator {
     }
 }
 
-fileprivate extension UserDefaults {
+private extension UserDefaults {
 
     var appVersion: String? {
         get {
