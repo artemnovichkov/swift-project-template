@@ -9,7 +9,7 @@
 2. Run a command in a project directory:
 
 	```bash
-	carthage update --platform iOS
+	carthage bootstrap --platform iOS
 	```
 3. Open `{{ cookiecutter.name }}.xcodeproj` in last Xcode version.
 4. Press `Cmd+R` or select `Product > Run` in menu.
