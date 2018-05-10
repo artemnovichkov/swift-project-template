@@ -2,7 +2,7 @@ language: objective-c
 osx_image: xcode9.2
 before_install:
   - brew update
-  - brew link --overwrite python
+  - brew upgrade python
   - brew install cookiecutter
   - brew install git-flow
   - brew install swiftgen
