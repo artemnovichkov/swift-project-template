@@ -51,5 +51,5 @@ custom_rules:
     message: "Enum cases should always start with a newline."
   accessors_and_observers_on_newline:
     name: "Property accessors and observers on newline"
-    regex: "^\\s*(get|set|didSet|willSet)[\\h\\S]*\\{[\\h\\S]+$"
+    regex: "^\\s*(get|set|didSet|willSet)[\\h\\S]\\{[\\h\\S]+$"
     message: "Property accessors and observers should always start with a newline."
