@@ -10,6 +10,12 @@ opt_in_rules:
   - conditional_returns_on_newline
   - fatal_error_message
   - overridden_super_call
+  - closure_end_indentation
+  - closure_spacing
+  - empty_string
+  - explicit_init
+  - first_where
+  - joined_default_parameter
 
 force_cast: error
 force_try: error
