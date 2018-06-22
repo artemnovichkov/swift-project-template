@@ -16,6 +16,10 @@ opt_in_rules:
   - explicit_init
   - first_where
   - joined_default_parameter
+  - multiline_parameters
+  - prohibited_super_call
+  - sorted_first_last
+  - untyped_error_in_catch
 
 force_cast: error
 force_try: error
