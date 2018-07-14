@@ -1,4 +1,4 @@
-{% if cookiecutter.fabric == "Yes" %}binary "https://raw.githubusercontent.com/Building42/Specs/master/Carthage/Fabric.json"
-binary "https://raw.githubusercontent.com/Building42/Specs/master/Carthage/Crashlytics.json"
+{% if cookiecutter.fabric == "Yes" %}binary "https://building42.github.io/Specs/Carthage/iOS/Fabric.json"
+binary "https://building42.github.io/Specs/Carthage/iOS/Crashlytics.json"
 {% endif %}
 
