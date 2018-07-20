@@ -1,4 +1,4 @@
-if [ "${CONFIGURATION}" = "Analyze" ]; then
+if [ $CONFIGURATION = "Analyze" ]; then
   if which swiftlint >/dev/null; then
     swiftlint
   else

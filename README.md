@@ -6,7 +6,7 @@
 ![swift-project-template](.github/example.png)
 
 ## Features:
-* Xcode 9.3+ and Swift 4.1+ support
+* Xcode 9.0+ and Swift 4.0+ support
 * AppCode support (checked in 2017.2 version)
 * Custom project structure (the same in the project and on the disk)
 * Configurations and schemes:
