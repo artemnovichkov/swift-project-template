@@ -169,7 +169,8 @@
 				060F08421E4D6B3900D9166F /* Resources */,
 				060F08791E4D6CF100D9166F /* SwiftLint */,
 				060F087A1E4D6D2100D9166F /* Carthage */,{% if cookiecutter.fabric == "Yes" %}
-				06A610D31FAC2694009A918A /* Fabric */,{% endif %}
+				06A610D31FAC2694009A918A /* Fabric */,{% endif %}{% if cookiecutter.licenseplist == "Yes" %}
+				06433404210076020075667E /* LicensePlist */,{% endif %}
 			);
 			buildRules = (
 			);
@@ -272,6 +273,21 @@
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "./Carthage/Build/iOS/Fabric.framework/run <FABRIC_API_KEY> <BUILD_SECRET>";
+			showEnvVarsInLog = 0;
+		};{% endif %}{% if cookiecutter.licenseplist == "Yes" %}
+		06433404210076020075667E /* LicensePlist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = LicensePlist;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ./Scripts/licenseplist_script.sh;
 			showEnvVarsInLog = 0;
 		};{% endif %}
 /* End PBXShellScriptBuildPhase section */
