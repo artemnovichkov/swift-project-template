@@ -8,7 +8,18 @@ echo "✅ Fabric frameworks were added successfully. Don't forget to add API Key
 {% endif %}
 
 {% if cookiecutter.swiftgen == "Yes" %}
-echo "input_dir: Resources\noutput_dir: Resources\nstrings:\n  paths: en.lproj/Localizable.strings\n  templateName: structured-swift4\n  output: Swiftgen.swift" > swiftgen.yml
+echo \
+"input_dir: Resources\n"\
+"output_dir: Resources\n"\
+"strings:\n"\
+"  paths: en.lproj/Localizable.strings\n"\
+"  templateName: structured-swift4\n"\
+"  output: Strings.swift\n"\
+"xcassets:\n"\
+"  paths: Assets.xcassets\n"\
+"  templateName: swift4\n"\
+"  output: Assets.swift" > swiftgen.yml
+
 swiftgen
 {% endif %}
 
