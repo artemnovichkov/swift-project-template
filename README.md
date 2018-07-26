@@ -15,8 +15,10 @@
 
 * Custom scripts for [Carthage](https://github.com/Carthage/Carthage) and [SwiftLint](https://github.com/realm/SwiftLint)
 * iOS Deployment Target - 9.0
-* Optional [Fabric](https://www.fabric.io) integration. Don't forget to add API Key and Build Secret manually from [Settings](https://www.fabric.io/settings/organizations)
-* Optional [SwiftGen](https://github.com/SwiftGen/SwiftGen) integration
+* Optional integrations:
+  * [Fabric](https://www.fabric.io). Don't forget to add API Key and Build Secret manually from [Settings](https://www.fabric.io/settings/organizations)
+  * [SwiftGen](https://github.com/SwiftGen/SwiftGen)
+  * [LicensePlist](https://github.com/mono0926/LicensePlist)
 * Template for Github pull requests
 * `Settings.bundle` with app version
 * Disabled automatic code signing (sorry, Apple 🤷‍♂️)
