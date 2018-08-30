@@ -166,7 +166,8 @@
 		060F08431E4D6B3900D9166F /* {{ cookiecutter.name }} */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 060F08561E4D6B3900D9166F /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}" */;
-			buildPhases = (
+			buildPhases = ({% if cookiecutter.swiftgen == "Yes" %}
+				061C7AE8213859B800D16625 /* Swiftgen */,{% endif %}
 				060F08401E4D6B3900D9166F /* Sources */,
 				060F08411E4D6B3900D9166F /* Frameworks */,
 				060F08421E4D6B3900D9166F /* Resources */,
@@ -292,7 +293,23 @@
 			shellPath = /bin/sh;
 			shellScript = ./Scripts/licenseplist_script.sh;
 			showEnvVarsInLog = 0;
+		};{% endif %}{% endif %}{% if cookiecutter.swiftgen == "Yes" %}
+		06433404210076020075667E /* LicensePlist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = LicensePlist;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ./Scripts/swiftgen_script.sh;
+			showEnvVarsInLog = 0;
 		};{% endif %}
+
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
