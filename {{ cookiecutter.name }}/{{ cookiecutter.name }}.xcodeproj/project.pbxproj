@@ -293,7 +293,7 @@
 			shellPath = /bin/sh;
 			shellScript = ./Scripts/licenseplist_script.sh;
 			showEnvVarsInLog = 0;
-		};{% endif %}{% endif %}{% if cookiecutter.swiftgen == "Yes" %}
+		};{% endif %}{% if cookiecutter.swiftgen == "Yes" %}
 		06433404210076020075667E /* LicensePlist */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
