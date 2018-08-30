@@ -21,7 +21,7 @@ echo \
 "  output: Assets.swift" > swiftgen.yml
 
 echo \
-"if [ $CONFIGURATION = "Analyze" ]; then"
+"if [ $CONFIGURATION = \"Analyze\" ]; then"
 "  if which swiftgen >/dev/null; then"
 "    swiftgen"
 "  else"
