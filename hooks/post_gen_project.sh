@@ -29,6 +29,8 @@ echo \
 "    exit 1"\
 "  fi"\
 "fi" > Scripts/swiftgen_script.sh
+
+swiftgen
 {% endif %}
 
 git init >/dev/null
