@@ -294,14 +294,14 @@
 			shellScript = ./Scripts/licenseplist_script.sh;
 			showEnvVarsInLog = 0;
 		};{% endif %}{% if cookiecutter.swiftgen == "Yes" %}
-		06433404210076020075667E /* LicensePlist */ = {
+		06433404210076020075667E /* Swiftgen */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = LicensePlist;
+			name = Swiftgen;
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
