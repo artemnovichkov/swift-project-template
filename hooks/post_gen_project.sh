@@ -30,6 +30,7 @@ echo \
 "  fi\n"\
 "fi" > Scripts/swiftgen_script.sh
 
+chmod +x Scripts/swiftgen_script.sh
 swiftgen
 {% endif %}
 
