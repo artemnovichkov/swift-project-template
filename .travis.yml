@@ -6,7 +6,7 @@ before_install:
   - brew install cookiecutter
   - brew install git-flow
   - brew install swiftgen
-  - brew install license-plist
+  - brew install mono0926/license-plist/license-plist
   - brew upgrade carthage
 script:
   - cookiecutter --no-input gh:artemnovichkov/swift-project-template
