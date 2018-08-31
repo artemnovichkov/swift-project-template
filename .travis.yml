@@ -10,4 +10,4 @@ before_install:
 script:
   - cookiecutter --no-input gh:artemnovichkov/swift-project-template
   - cd Project
-  - xcodebuild clean build -project Project.xcodeproj -scheme 'Debug Development' CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+  - xcodebuild clean analyze -project Project.xcodeproj -scheme 'Debug Development' CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
