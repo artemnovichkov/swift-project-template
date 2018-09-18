@@ -2,7 +2,6 @@ language: objective-c
 osx_image: xcode10
 before_install:
   - brew update
-  - brew upgrade python
   - brew install cookiecutter
   - brew install git-flow
   - brew install swiftgen
