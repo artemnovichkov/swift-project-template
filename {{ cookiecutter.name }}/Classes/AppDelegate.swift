@@ -4,7 +4,7 @@
 
 import UIKit
 
-typealias LaunchOptions = [UIApplicationLaunchOptionsKey: Any]
+typealias LaunchOptions = [UIApplication.LaunchOptionsKey: Any]
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
