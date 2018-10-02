@@ -15,13 +15,12 @@ final class AppConfigurator {
                 return
         }
         let appVersion = "\(shortVersionString) (\(bundleVersion))"
-        UserDefaults.standard.appVersion = appVersion
-        {% if cookiecutter.fabric == "Yes" %}
+        UserDefaults.standard.appVersion = appVersion{% if cookiecutter.fabric == "Yes" %}
         Fabric.with([Crashlytics.self]){% endif %}
     }
 }
 
-fileprivate extension UserDefaults {
+private extension UserDefaults {
 
     var appVersion: String? {
         get {

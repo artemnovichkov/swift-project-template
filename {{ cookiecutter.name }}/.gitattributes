@@ -1,8 +1,12 @@
-*.yml linguist-generated
-*.sh linguist-generated
-*.liquid linguist-generated
+# excluded from language stats and suppressed in diffs
 .idea linguist-generated
-Podfile linguist-generated
-fastlane linguist-generated
 
+# excluded from language stats
+fastlane/* linguist-vendored
+Templates/* linguist-vendored
+*.yml linguist-vendored
+*.sh linguist-vendored
+Podfile linguist-vendored
+
+# excluded from language stats
 *.md linguist-documentation
