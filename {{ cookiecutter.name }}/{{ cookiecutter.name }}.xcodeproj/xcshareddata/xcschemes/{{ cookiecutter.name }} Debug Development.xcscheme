@@ -10,7 +10,7 @@
             buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "YES"
-            buildForArchiving = "YES"
+            buildForArchiving = "NO"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
@@ -85,7 +85,7 @@
       buildConfiguration = "Analyze">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "AdHoc Development"
+      buildConfiguration = "Debug Development"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
