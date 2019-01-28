@@ -13,7 +13,7 @@ echo \
 "output_dir: Resources\n"\
 "strings:\n"\
 "  inputs: en.lproj/Localizable.strings\n"\
-"  outputs:
+"  outputs:\n"\
 "    - templateName: structured-swift4\n"\
 "      output: Strings.swift\n"\
 "xcassets:\n"\
