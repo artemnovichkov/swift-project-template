@@ -31,8 +31,12 @@
    `brew install cookiecutter carthage`
    
    Carthage is used as dependency manager by default.
-    
-2. Run `cookiecutter gh:artemnovichkov/swift-project-template`. No need to create project folder manually, cookiecutter does it for you.
+2. (Optional) Install [SwiftGen](https://github.com/swiftgen/swiftgen):
+
+   `brew install swiftgen`
+
+3. Install [git-flow](https://github.com/nvie/gitflow/wiki/Mac-OS-X)
+4. Run `cookiecutter gh:artemnovichkov/swift-project-template`. No need to create project folder manually, cookiecutter does it for you.
 
 For future runs you can shorten the command to `cookiecutter swift-project-template`. However, if you want to use the most recent template you should still run the full command above. Or just create an alias:
 ```bash
