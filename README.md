@@ -6,7 +6,7 @@
 ![swift-project-template](.github/example.png)
 
 ## Features:
-* Xcode 10.0 and Swift 4.2 support
+* Xcode 10.2 and Swift 5.0 support
 * AppCode support (checked in 2018.2.2 version)
 * Custom project structure (the same in the project and on the disk)
 * Configurations and schemes:
@@ -14,7 +14,7 @@
 ![swift-project-template](.github/schemes.png)
 
 * Custom scripts for [Carthage](https://github.com/Carthage/Carthage) and [SwiftLint](https://github.com/realm/SwiftLint)
-* iOS Deployment Target - 9.0
+* iOS Deployment Target - 11.0
 * Optional integrations:
   * [Fabric](https://www.fabric.io). Don't forget to add API Key and Build Secret manually from [Settings](https://www.fabric.io/settings/organizations)
   * [SwiftGen](https://github.com/SwiftGen/SwiftGen)
@@ -27,7 +27,7 @@
 
 ## Usage
 1. Install [Cookiecutter](https://github.com/audreyr/cookiecutter) and [Carthage](https://github.com/Carthage/Carthage):
-   
+  
    `brew install cookiecutter carthage`
    
    Carthage is used as dependency manager by default.
