@@ -20,6 +20,7 @@ opt_in_rules:
   - prohibited_super_call
   - sorted_first_last
   - untyped_error_in_catch
+  - file_header
 
 force_cast: error
 force_try: error
@@ -51,6 +52,12 @@ function_parameter_count: 4
 
 type_name:
   min_length: 2 # only warning
+  
+file_header:
+  required_pattern: |
+                    \/\/
+                    \/\/  Copyright © \d{4}\ .*?. All rights reserved.
+                    \/\/
 
 # Custom rules
 
