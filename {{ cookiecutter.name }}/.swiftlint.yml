@@ -53,6 +53,15 @@ function_parameter_count: 4
 type_name:
   min_length: 2 # only warning
   
+type_contents_order:
+  order:
+    - case
+    - associated_type
+    - type_alias
+    - subtype
+    - [type_property, instance_property]
+    - [initializer, type_method, view_life_cycle_method, subscript, other_method, ib_action]
+
 file_header:
   required_pattern: |
                     \/\/
