@@ -12,16 +12,14 @@ echo \
 "input_dir: Resources\n"\
 "output_dir: Resources\n"\
 "strings:\n"\
-"  inputs: en.lproj/Localizable.strings\n"\
-"  outputs:\n"\
-"    - templateName: structured-swift4\n"\
-"      output: Strings.swift\n"\
+"  paths: en.lproj/Localizable.strings\n"\
+"  templateName: structured-swift4\n"\
+"  output: Strings.swift\n"\
 "xcassets:\n"\
-"  inputs:\n"\
+"  paths:\n"\
 "    - Assets.xcassets\n"\
-"  outputs:\n"\
-"    - templateName: swift4\n"\
-"      output: Assets.swift" > swiftgen.yml
+"  templateName: swift4\n"\
+"  output: Assets.swift" > swiftgen.yml
 
 echo \
 "if [ \$CONFIGURATION = \"Analyze\" ]; then\n"\
