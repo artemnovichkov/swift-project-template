@@ -575,7 +575,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "{{ cookiecutter.bundle_identifier }}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "STAGING_SERVER DEBUG";
-				SWIFT_OPTIMIZATION_LEVEL = "-0none";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = "Debug Staging";
