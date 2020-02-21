@@ -14,3 +14,9 @@ init: bootstrap
 
 generamba:
 	generamba template install
+
+gen_service:
+	generamba gen $MODULE_NAME $TEMPLATE_NAME --module-path Classes/BusinessLogic/Services
+
+gen_module:
+	generamba gen $MODULE_NAME $TEMPLATE_NAME --module-path Classes/Presentation/Modules
