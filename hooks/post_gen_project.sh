@@ -24,18 +24,18 @@ xcassets:
 
 echo "if [ \$CONFIGURATION = \"Analyze\" ]; then
   if which swiftgen >/dev/null; then
-    if [ -f "$SRCROOT"/Resources/Assets.swift ]; then
-        chmod +w "$SRCROOT"/Resources/Assets.swift
+    if [ -f Resources/Assets.swift ]; then
+        chmod +w Resources/Assets.swift
     fi
-    if [ -f "$SRCROOT"/Resources/Strings.swift ]; then
-        chmod +w "$SRCROOT"/Resources/Strings.swift
+    if [ -f Resources/Strings.swift ]; then
+        chmod +w Resources/Strings.swift
     fi
     swiftgen
-    if [ -f "$SRCROOT"/Resources/Assets.swift ]; then
-        chmod -w "$SRCROOT"/Resources/Assets.swift
+    if [ -f Resources/Assets.swift ]; then
+        chmod -w Resources/Assets.swift
     fi
-    if [ -f "$SRCROOT"/Resources/Strings.swift ]; then
-        chmod -w "$SRCROOT"/Resources/Strings.swift
+    if [ -f Resources/Strings.swift ]; then
+        chmod -w Resources/Strings.swift
     fi
   else
     echo \"warning: Swiftgen not installed, download from https://github.com/SwiftGen/SwiftGen\"
