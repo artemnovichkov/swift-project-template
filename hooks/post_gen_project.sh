@@ -61,8 +61,4 @@ fi" > Scripts/licenseplist_script.sh
 chmod +x Scripts/licenseplist_script.sh
 {% endif %}
 
-git init >/dev/null
-git add -A . >/dev/null
-git commit -m "Initial Commit" >/dev/null
-git flow init -d >/dev/null
-xed . >/dev/null
+make init
