@@ -24,5 +24,5 @@ install_if_needed swiftgen
 install_if_needed git-flow
 
 {% if cookiecutter.licenseplist == "Yes" %}
-install_if_needed licenseplist
+install_if_needed license-plist
 {% endif %}
