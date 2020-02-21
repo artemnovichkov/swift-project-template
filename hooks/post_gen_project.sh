@@ -8,38 +8,40 @@ echo "✅ Fabric frameworks were added successfully. Don't forget to add API Key
 {% endif %}
 
 {% if cookiecutter.swiftgen == "Yes" %}
-echo \
-"input_dir: Resources\n"\
-"output_dir: Resources\n"\
-"strings:\n"\
-"  inputs: en.lproj/Localizable.strings\n"\
-"  outputs:\n"\
-"    - templateName: structured-swift4\n"\
-"      output: Strings.swift\n"\
-"xcassets:\n"\
-"  inputs:\n"\
-"    - Assets.xcassets\n"\
-"  outputs:\n"\
-"    - templateName: swift4\n"\
-"      output: Assets.swift" > swiftgen.yml
+echo "input_dir: Resources\n
+output_dir: Resources
+strings:
+  inputs: en.lproj/Localizable.strings
+  outputs:
+    - templateName: structured-swift4
+      output: Strings.swift
+xcassets:
+  inputs:
+    - Assets.xcassets
+  outputs:
+    - templateName: swift4
+      output: Assets.swift" > swiftgen.yml
 
-echo \
-"if [ \$CONFIGURATION = \"Analyze\" ]; then\n"\
-"  if which swiftgen >/dev/null; then\n"\
-"    if [ -f "$SRCROOT"/Resources/Assets.swift ]; then\n"\
-"        chmod +w "$SRCROOT"/Resources/Assets.swift\n"\
-"    fi\n"\
-"    if [ -f "$SRCROOT"/Resources/Strings.swift ]; then\n"\
-"        chmod +w "$SRCROOT"/Resources/Strings.swift\n"\
-"    fi\n"\
-"    swiftgen\n"\
-"    chmod -w "$SRCROOT"/Resources/Assets.swift\n"\
-"    chmod -w "$SRCROOT"/Resources/Strings.swift\n"\
-"  else\n"\
-"    echo \"warning: Swiftgen not installed, download from https://github.com/SwiftGen/SwiftGen\"\n"\
-"    exit 1\n"\
-"  fi\n"\
-"fi" > Scripts/swiftgen_script.sh
+echo "if [ \$CONFIGURATION = \"Analyze\" ]; then
+  if which swiftgen >/dev/null; then
+    if [ -f "$SRCROOT"/Resources/Assets.swift ]; then
+        chmod +w "$SRCROOT"/Resources/Assets.swift
+    fi
+    if [ -f "$SRCROOT"/Resources/Strings.swift ]; then
+        chmod +w "$SRCROOT"/Resources/Strings.swift
+    fi
+    swiftgen
+    if [ -f "$SRCROOT"/Resources/Assets.swift ]; then
+        chmod -w "$SRCROOT"/Resources/Assets.swift
+    fi
+    if [ -f "$SRCROOT"/Resources/Strings.swift ]; then
+        chmod -w "$SRCROOT"/Resources/Strings.swift
+    fi
+  else
+    echo \"warning: Swiftgen not installed, download from https://github.com/SwiftGen/SwiftGen\"
+    exit 1
+  fi
+fi" > Scripts/swiftgen_script.sh
 
 chmod +x Scripts/swiftgen_script.sh
 swiftgen
