@@ -58,6 +58,7 @@ if [ $CONFIGURATION = \"Analyze\" ]; then
     exit 1
   fi
 fi" > Scripts/licenseplist_script.sh
+chmod +x Scripts/licenseplist_script.sh
 {% endif %}
 
 git init >/dev/null
