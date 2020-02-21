@@ -23,11 +23,18 @@ echo \
 "    - templateName: swift4\n"\
 "      output: Assets.swift" > swiftgen.yml
 
-
 echo \
 "if [ \$CONFIGURATION = \"Analyze\" ]; then\n"\
 "  if which swiftgen >/dev/null; then\n"\
+"    if [ -f "$SRCROOT"/Resources/Assets.swift ]; then\n"\
+"        chmod +w "$SRCROOT"/Resources/Assets.swift\n"\
+"    fi\n"\
+"    if [ -f "$SRCROOT"/Resources/Strings.swift ]; then\n"\
+"        chmod +w "$SRCROOT"/Resources/Strings.swift\n"\
+"    fi\n"\
 "    swiftgen\n"\
+"    chmod -w "$SRCROOT"/Resources/Assets.swift\n"\
+"    chmod -w "$SRCROOT"/Resources/Strings.swift\n"\
 "  else\n"\
 "    echo \"warning: Swiftgen not installed, download from https://github.com/SwiftGen/SwiftGen\"\n"\
 "    exit 1\n"\
