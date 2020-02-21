@@ -44,7 +44,19 @@ echo "if [ \$CONFIGURATION = \"Analyze\" ]; then
 fi" > Scripts/swiftgen_script.sh
 
 chmod +x Scripts/swiftgen_script.sh
-swiftgen
+{% endif %}
+
+{% if cookiecutter.licenseplist == "Yes" %}
+echo "#!/bin/bash
+
+if [ $CONFIGURATION = \"Analyze\" ]; then
+  if which license-plist >/dev/null; then
+    license-plist --output-path $PRODUCT_NAME/Settings.bundle --suppress-opening-directory
+  else
+    echo \"warning: LicensePlist not installed, download from https://github.com/mono0926/LicensePlist\"
+    exit 1
+  fi
+fi" > Scripts/licenseplist_script.sh
 {% endif %}
 
 git init >/dev/null
