@@ -1,4 +1,4 @@
-PROJECT_NAME = `{{ cookiecutter.name }}`
+PROJECT_NAME = "{{ cookiecutter.name }}"
 
 # phony targets
 .PHONY: all bootstrap init generamba
