@@ -6,8 +6,8 @@
 	```bash
 	make bootstrap
 	```
-3. Open `{{ cookiecutter.name }}.xcodeproj` in last Xcode version.
-4. Press `Cmd+R` or select `Product > Run` in menu.
+2. Open `{{ cookiecutter.name }}.xcodeproj` in last Xcode version.
+3. Press `Cmd+R` or select `Product > Run` in menu.
 
 ## Analyzing
 
