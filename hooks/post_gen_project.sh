@@ -2,10 +2,6 @@
 
 set -e
 
-{% if cookiecutter.fabric == "Yes" %}
-echo "⚠️ Don't forget to add API Key to Info.plist and API Key and Build Secret to Fabric Run Script Build Phase. The credentials are available here: https://www.fabric.io/settings/organizations"
-{% endif %}
-
 {% if cookiecutter.swiftgen == "Yes" %}
 echo "input_dir: Resources\n
 output_dir: Resources
@@ -61,3 +57,7 @@ chmod +x Scripts/licenseplist_script.sh
 {% endif %}
 
 make init
+
+{% if cookiecutter.firebase == "Yes" %}
+make firebase_init
+{% endif %}
