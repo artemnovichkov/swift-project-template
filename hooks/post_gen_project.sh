@@ -59,5 +59,6 @@ chmod +x Scripts/licenseplist_script.sh
 make init
 
 {% if cookiecutter.firebase == "Yes" %}
+chmod +x bin/firebase.sh
 make firebase_init
 {% endif %}
