@@ -2,6 +2,7 @@
 
 set -e
 
+# Configure Swiftgen if needed
 {% if cookiecutter.swiftgen == "Yes" %}
 echo "input_dir: Resources\n
 output_dir: Resources
@@ -42,6 +43,7 @@ chmod +x Scripts/swiftgen_script.sh
 swiftgen >/dev/null
 {% endif %}
 
+# Configure LicensePlist if needed
 {% if cookiecutter.licenseplist == "Yes" %}
 echo "#!/bin/bash
 
@@ -58,7 +60,11 @@ chmod +x Scripts/licenseplist_script.sh
 
 make init
 
+# Initialize Firebase if needed
 {% if cookiecutter.firebase == "Yes" %}
 chmod +x bin/firebase.sh
 make firebase_init
 {% endif %}
+
+# Open Xcode
+xed . >/dev/null
