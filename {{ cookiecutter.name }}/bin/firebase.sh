@@ -9,5 +9,5 @@ echo "{\"projects\": {\"default\": \"$1\"}}" > .firebaserc
 firebase projects:create $project_id
 echo "Waiting before creation iOS app in Firebase project 😴"
 sleep 10
-firebase apps:create iOS --bundle-id $1
+firebase apps:create iOS --bundle-id $1 --project $project_id
 firebase apps:sdkconfig iOS -o Resources/Google-Services.plist
