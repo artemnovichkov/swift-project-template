@@ -14,4 +14,4 @@ init: bootstrap
 	bin/init.sh ${PROJECT_NAME}
 
 firebase_init:
-	bin/firebase.sh ${BUNDLE_ID}
+	bin/firebase.sh ${BUNDLE_ID} 2> /dev/null
