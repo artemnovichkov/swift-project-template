@@ -7,5 +7,6 @@ echo "Please specify a unique project id (warning: cannot be modified afterward)
 read project_id
 echo "{\"projects\": {\"default\": \"$1\"}}" > .firebaserc
 firebase projects:create $project_id
+sleep 5
 firebase apps:create iOS --bundle-id $1
 firebase apps:sdkconfig iOS -o Resources/Google-Services.plist
