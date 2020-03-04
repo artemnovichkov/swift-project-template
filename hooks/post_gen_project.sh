@@ -64,6 +64,7 @@ make init
 {% if cookiecutter.firebase == "Yes" %}
 chmod +x bin/firebase.sh
 make firebase_init
+carthage update --platform iOS
 {% endif %}
 
 # Open Xcode
