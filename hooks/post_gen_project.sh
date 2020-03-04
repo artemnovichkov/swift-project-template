@@ -64,10 +64,6 @@ make init
 {% if cookiecutter.firebase == "Yes" %}
 chmod +x bin/firebase.sh
 make firebase_init
-
-echo "binary \"https://building42.github.io/Specs/Carthage/iOS/Fabric.json\"
-binary \"https://building42.github.io/Specs/Carthage/iOS/Crashlytics.json\"
-binary \"https://dl.google.com/dl/firebase/ios/carthage/FirebaseAnalyticsBinary.json\"" > Cartfile
 {% endif %}
 
 # Open Xcode
