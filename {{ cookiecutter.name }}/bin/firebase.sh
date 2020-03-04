@@ -9,5 +9,5 @@ firebase projects:create $project_id
 echo "Waiting before creation iOS app in Firebase project 😴"
 sleep 5
 firebase apps:create iOS --bundle-id $1 --project $project_id
-firebase apps:sdkconfig iOS -o Resources/Google-Services.plist --project $project_id
-echo "Firebase project was successfully created 🎉 Don't forget to add Google-Services.plist to Xcode project"
+firebase apps:sdkconfig iOS -o Resources/GoogleService-Info.plist --project $project_id
+echo "Firebase project was successfully created 🎉 Don't forget to add GoogleService-Info.plist and related frameworks to Xcode project"
