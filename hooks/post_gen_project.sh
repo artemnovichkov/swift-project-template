@@ -2,10 +2,7 @@
 
 set -e
 
-{% if cookiecutter.fabric == "Yes" %}
-echo "⚠️ Don't forget to add API Key to Info.plist and API Key and Build Secret to Fabric Run Script Build Phase. The credentials are available here: https://www.fabric.io/settings/organizations"
-{% endif %}
-
+# Configure Swiftgen if needed
 {% if cookiecutter.swiftgen == "Yes" %}
 echo "input_dir: Resources\n
 output_dir: Resources
@@ -46,6 +43,7 @@ chmod +x Scripts/swiftgen_script.sh
 swiftgen >/dev/null
 {% endif %}
 
+# Configure LicensePlist if needed
 {% if cookiecutter.licenseplist == "Yes" %}
 echo "#!/bin/bash
 
@@ -61,3 +59,13 @@ chmod +x Scripts/licenseplist_script.sh
 {% endif %}
 
 make init
+
+# Initialize Firebase if needed
+{% if cookiecutter.firebase == "Yes" %}
+chmod +x bin/firebase.sh
+make firebase_init
+carthage update --platform iOS
+{% endif %}
+
+# Open Xcode
+xed . >/dev/null

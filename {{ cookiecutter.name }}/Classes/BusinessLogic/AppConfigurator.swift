@@ -2,10 +2,9 @@
 //  Copyright © {% now 'local', '%Y' %} {{ cookiecutter.organization_name }}. All rights reserved.
 //
 
-import Foundation
-{% if cookiecutter.fabric == "Yes" %}import Fabric
-import Crashlytics{% endif %}
-
+import Foundation{% if cookiecutter.firebase == "Yes" %}
+import Firebase
+{% endif %}
 final class AppConfigurator {
 
     static func configure() {
@@ -15,8 +14,8 @@ final class AppConfigurator {
                 return
         }
         let appVersion = "\(shortVersionString) (\(bundleVersion))"
-        UserDefaults.standard.appVersion = appVersion{% if cookiecutter.fabric == "Yes" %}
-        Fabric.with([Crashlytics.self]){% endif %}
+        UserDefaults.standard.appVersion = appVersion{% if cookiecutter.firebase == "Yes" %}
+        FirebaseApp.configure(){% endif %}
     }
 }
 
