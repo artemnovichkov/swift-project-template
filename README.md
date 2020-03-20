@@ -14,7 +14,7 @@
 ![swift-project-template](.github/schemes.png)
 
 * Custom scripts for [Carthage](https://github.com/Carthage/Carthage) and [SwiftLint](https://github.com/realm/SwiftLint)
-* iOS Deployment Target - 11.0
+* iOS Deployment Target - 12.0
 * Optional integrations:
   * [Firebase](https://firebase.google.com). Don't forget to add Google-Services.plist and related frameworks manually.
   * [SwiftGen](https://github.com/SwiftGen/SwiftGen)
