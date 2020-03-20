@@ -7,7 +7,7 @@
 
 ## Features:
 * Xcode 11 and Swift 5.0 support
-* AppCode support (checked in 2018.2.2 version)
+* AppCode support
 * Custom project structure (the same in the project and on the disk)
 * Configurations and schemes:
 
@@ -16,7 +16,7 @@
 * Custom scripts for [Carthage](https://github.com/Carthage/Carthage) and [SwiftLint](https://github.com/realm/SwiftLint)
 * iOS Deployment Target - 11.0
 * Optional integrations:
-  * [Fabric](https://www.fabric.io). Don't forget to add API Key and Build Secret manually from [Settings](https://www.fabric.io/settings/organizations)
+  * [Firebase](https://firebase.google.com). Don't forget to add Google-Services.plist and related frameworks manually.
   * [SwiftGen](https://github.com/SwiftGen/SwiftGen)
   * [LicensePlist](https://github.com/mono0926/LicensePlist)
 * Template for Github pull requests
