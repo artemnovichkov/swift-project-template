@@ -5,6 +5,7 @@ DIR=`dirname $0`
 
 echo "Check requirements"
 
-install_dependencies_if_needed git-flow carthage swiftlint swiftgen generamba license-plist fastfood
+install_brew_dependencies_if_needed git-flow carthage swiftlint swiftgen license-plist artemnovichkov/projects/fastfood
+install_gem_dependencies_if_needed generamba
 
 carthage bootstrap --platform iOS

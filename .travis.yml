@@ -2,11 +2,7 @@ language: objective-c
 osx_image: xcode11
 before_install:
   - brew update
-  - brew install cookiecutter
-  - brew install git-flow
-  - brew install swiftgen
-  - brew install mono0926/license-plist/license-plist
 script:
-  - cookiecutter --no-input gh:artemnovichkov/swift-project-template
+  - cookiecutter --no-input gh:artemnovichkov/swift-project-template firebase="NO"
   - cd Project
   - xcodebuild clean analyze -project Project.xcodeproj -scheme 'Project Debug Development' CODE_SIGNING_ALLOWED=NO
