@@ -2,6 +2,7 @@ language: objective-c
 osx_image: xcode11
 before_install:
   - brew update
+  - brew install cookiecutter
 script:
   - cookiecutter --no-input gh:artemnovichkov/swift-project-template firebase="NO"
   - cd Project
