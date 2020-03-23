@@ -40,7 +40,6 @@ echo "if [ \$CONFIGURATION = \"Analyze\" ]; then
 fi" > Scripts/swiftgen_script.sh
 
 chmod +x Scripts/swiftgen_script.sh
-swiftgen >/dev/null
 {% endif %}
 
 # Configure LicensePlist if needed
