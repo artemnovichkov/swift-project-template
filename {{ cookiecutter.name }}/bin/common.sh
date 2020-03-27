@@ -32,6 +32,6 @@ install_gem_dependencies_if_needed () {
 	dependencies=("$@")
 	for dependency in "${dependencies[@]}";
 	do
-		install_gem_dependency_if_needed $1 $dependency
+		install_gem_dependency_if_needed $dependency
 	done
 }
